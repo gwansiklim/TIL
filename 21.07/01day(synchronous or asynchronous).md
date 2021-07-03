@@ -1,4 +1,4 @@
-# 오늘의 한일
+# 오늘 배운 것
 ___
 
 * 팀원들끼리 각자 공부했던것들 발표(synchronous, asynchronous))
