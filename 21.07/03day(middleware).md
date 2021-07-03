@@ -1,6 +1,6 @@
 # 오늘 배운 것
 ___
-*express
+* express
 * middleware
 
 ## express middleware란?
