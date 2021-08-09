@@ -23,13 +23,18 @@ ___
 ## swagger-autogen사용 방법
 ___
 1. 위 2개의 패키지를 install을 해준다.
+
 2. app.js 메인 서버에 require해주기
-3. ```const swaggerUi = require("swagger-ui-express"); 
+
+3.swagger.js 파일생성 
+```
 const swaggerUi = require("swagger-ui-express");
 const swaggerFile = require("./swagger-output");
 
+
 app.use("/swagger", swaggerUi.serve, swaggerUi.setup(swaggerFile));
-]```
+```
+
 4. swagger.js 파일 생성
 ```const swaggerAutogen = require("swagger-autogen")();
 
