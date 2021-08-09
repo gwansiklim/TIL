@@ -61,3 +61,16 @@ swaggerAutogen(outputFile, endpointsFiles, doc);
 로컬 서버는 각각 지정해준 로컬로 바꾸어 주고 실행을 해준다.
 
 ![image](https://user-images.githubusercontent.com/85220179/128411002-79ba214a-9297-40fd-92a6-7683d2b09657.png)
+
+6. type과 properties 사용방법
+___
+
+<img width="880" alt="스크린샷 2021-08-09 오후 3 45 29" src="https://user-images.githubusercontent.com/85220179/128668928-241dd975-6ceb-460e-9219-f1dd2c0732c5.png">
+
+위 사진과 같이 autogen을 사용하면 tags 와 parameters안에 빈 값이 있는 경우가 있을 것이다.<br/>
+tags안 사진과 같이 해당 주소에서 사용할 대표이름(?)을 정해주는 것이고, <br/>
+description 같은 경우에는 api파일을 눌러 열면 그안에서 사용할 이름을 써줄 떄 사용하는 것이다.<br/>
+마지막으로 parrmeters안에는 사진과 같이 사용할 스키마를 적용하여 내가 사용하고자 하는 api에 관한 내용을 써준다.
+
+<img width="1439" alt="스크린샷 2021-08-09 오후 5 18 20" src="https://user-images.githubusercontent.com/85220179/128677507-6becd098-5f49-42b3-af1c-fd6560c893b7.png">
+위 사진과 같이 생기는것을 볼수 있을 것이다.
