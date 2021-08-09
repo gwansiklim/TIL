@@ -24,13 +24,14 @@ ___
 ___
 1. 위 2개의 패키지를 install을 해준다.
 2. app.js 메인 서버에 require해주기
-``` const swaggerUi = require("swagger-ui-express");
+3. ```const swaggerUi = require("swagger-ui-express"); 
+const swaggerUi = require("swagger-ui-express");
 const swaggerFile = require("./swagger-output");
 
 app.use("/swagger", swaggerUi.serve, swaggerUi.setup(swaggerFile));
-```
-3. swagger.js 파일 생성
-``` const swaggerAutogen = require("swagger-autogen")();
+]```
+4. swagger.js 파일 생성
+```const swaggerAutogen = require("swagger-autogen")();
 
 const doc = {
   info: {
@@ -48,12 +49,12 @@ const endpointsFiles = [
 
 swaggerAutogen(outputFile, endpointsFiles, doc);
 ```
-4. 명령어 실행
+5. 명령어 실행
 ``` node ./swagger.js ```
 명령어를 실행 하면 파일 목록에 swagger-output.js가 생성이 되어 있다.
 그곳에 각각의 기능에 tpye과 properties를 정의를 해준다.
 
-5. 서버 시작 후 접속 (localhost:3000/swagger)
+6. 서버 시작 후 접속 (localhost:3000/swagger)
 로컬 서버는 각각 지정해준 로컬로 바꾸어 주고 실행을 해준다.
 
 ![image](https://user-images.githubusercontent.com/85220179/128411002-79ba214a-9297-40fd-92a6-7683d2b09657.png)
