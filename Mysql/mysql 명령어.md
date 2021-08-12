@@ -23,6 +23,7 @@ $ npm i sequelize-cli -D
 npx sequelize init
 ```
 설치 후 config, models, migrations, seeders 생성 됨.
+
 <img width="224" alt="스크린샷 2021-08-13 오전 1 15 44" src="https://user-images.githubusercontent.com/85220179/129231739-f1d85035-50e0-40c3-be94-fdb3d353675f.png">
 
 ___
