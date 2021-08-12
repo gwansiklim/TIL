@@ -42,7 +42,7 @@ npx sequelize model:generate --name Cart --attributes userId:integer //관계형
 ```
 ___
 
-# migrations 생성, 삭제
+# 테이블 생성, 삭제
 ```
 npx sequelize db:migrate //생성
 npx sequelize db:migrate:undo //삭제
