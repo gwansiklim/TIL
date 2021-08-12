@@ -5,7 +5,7 @@ docker run --rm -p 3306:3306 --name test-db -e MYSQL_ROOT_PASSWORD=***** mysql:5
 ```
 
 <img width="1273" alt="스크린샷 2021-08-13 오전 1 08 24" src="https://user-images.githubusercontent.com/85220179/129230568-1159b491-2b7b-4a0c-a679-5a96d6e83985.png">
-설치 후 사진과 같이 연결이 되었으면 성공
+설치 후 사진과 같이 연결이 되었으면 성공<br/>
 ___
 
 # vscode 연결 하기
