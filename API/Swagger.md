@@ -34,7 +34,8 @@ app.use("/swagger", swaggerUi.serve, swaggerUi.setup(swaggerFile));
 ```
 
 3. swagger.js 파일 생성
-```const swaggerAutogen = require("swagger-autogen")();
+```
+const swaggerAutogen = require("swagger-autogen")();
 
 const doc = {
   info: {
