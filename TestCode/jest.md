@@ -48,7 +48,7 @@ test("GET /api/post 경로에 요청했을 떄 Authorization 헤더가 없을 �
         {
           postId: 1,
         });  //보낼 데이터들
-    expect(response.status).toEqual(401);
+    expect(response.status).toEqual(401); //해당 에러코드 또는 통과 코드를 작성해준다.
 });
 ```
 위와 같이 작성해준다. 본인은 false가 나올 때마다 api문서나 내가 작성한 코드들을 보면서 에러코드가 잘 작성이 되었는지에 대해 체크를 하고
