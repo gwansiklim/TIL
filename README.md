@@ -21,6 +21,6 @@ ___
  * 지도를 사용하여 나의 실생활 반경 내에 있는 이웃들과 모임들을 보다 직관적으로 보여주었습니다. 
 
  
- # <a href='https://moyeora.org'><strong>헤쳐모여 페이지로 이동</strong></a> , <a href='https://github.com/archepro84/FinalProject_9'>프로젝트 github보기</a>
+ # <a href='https://moyeora.org'><strong>헤쳐모여 페이지로 이동</strong></a> , <a href='https://github.com/gwansiklim/FinalProject_9'>프로젝트 github보기</a>
 ![KakaoTalk_Photo_2021-09-04-04-38-14](https://user-images.githubusercontent.com/85220179/132057806-dd10f068-2c9e-47ff-8608-2d0347c067f9.png)
  
