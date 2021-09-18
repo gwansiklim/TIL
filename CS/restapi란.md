@@ -30,5 +30,7 @@
 하지만 Restful의 목적은 이해하기 쉽고 사용하기 쉬운 Rest API를 만드는 것이다.<br/>
 
 * 해당하는 매소드의 이벤트를 직관적으로 설계하는 기법.
+```
 GET : /users/{userid}/devices - rest api
 GET: /users/:id/nickname - restful api
+```
