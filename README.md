@@ -1,5 +1,4 @@
-# TIL 본격적으로 시작하기
-<a href="https://sigi.tistory.com/">블로그 이동하기</a>
+# <a href="https://sigi.tistory.com/">📄블로그 이동📓/a>
  
  ## 어떤 식으로 운영할 건가요?
 
