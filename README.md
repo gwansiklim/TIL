@@ -1,4 +1,4 @@
-# <a href="https://sigi.tistory.com/">📄블로그 이동📓/a>
+# <a href="https://sigi.tistory.com/">📄블로그 이동📓</a>
  
  ## 어떤 식으로 운영할 건가요?
 
